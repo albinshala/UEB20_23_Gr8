@@ -26,6 +26,10 @@
         <li><a href="#">Coming soon</a></li>
         <li><a href ="#">Trends</a></li>
       </ul>
+       <div class="search">
+        <input type ="text" placeholder="Search"/>
+        <i class="fa fa-search" aria-hidden="true"></i>
+
      
       </div>
   </header>
