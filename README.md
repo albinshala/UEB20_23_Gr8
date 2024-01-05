@@ -12,5 +12,25 @@
     </head>
 </html>
 <body>
+<body>
+  <header>
+    <a ref="#" class="logo">AniCinema</a>
+      <ul class="nav">
+
+        <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>
+        </li>
+
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Ticekt Info</a></li>
+        <li><a href="#">Coming soon</a></li>
+        <li><a href ="#">Trends</a></li>
+      </ul>
+      <div class="search">
+        <input type ="text" placeholder="Search"/>
+        <i class="fa fa-search" aria-hidden="true"></i>
+
+      </div>
+  </header>
   
 </body>
