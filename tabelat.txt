@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h2>DRINS TABLE</h2>
+
+
+<table style="width:100%">
+  <tr>
+    <th >Drinks</th>
+    <th>S</th>
+      <th>M</th>
+        <th>L</th>
+  </tr>
+  
+  <tr>
+    <th>Dea Natyral Water</th>
+    <th colspan="3">0.8 &euro;</th>
+   
+  </tr>
+  
+  <tr>
+    <th>Dea Mineral Water</th>
+    <th colspan="3">0.8 &euro;</th>
+   
+  </tr>
+  
+  <tr>
+    <th >Coke</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th>
+  </tr>
+  
+  <tr>
+  <th >Diet Coke</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th>
+        </tr>
+        
+   <tr>     
+   <th >Sprite</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th>
+        </tr>
+        
+        
+   <tr>     
+    <th >Ice Tea</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th> 
+        </tr>
+        
+        
+    <tr>    
+    <th >Lemonad</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th> 
+        </tr>
+        
+        
+    <tr>
+    <th >Fanta</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th> 
+        </tr>
+        
+     <tr>   
+    <th >Red Bull</th>
+    <th>2.2 &euro;</th>
+      <th>2.5 &euro;</th>
+        <th>2.8 &euro;</th>   
+        </tr>
+</table>
+
+
+<hr>
+
+<h2>JUICES TABLE</h2>
+
+<table style="width:100%">
+
+<tr>
+    <th >Juices</th>
+    <th>S</th>
+      <th>M</th>
+        <th>L</th> 
+        </tr>
+
+<tr>
+    <th >Apple</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th> 
+        </tr>
+        
+  <tr>
+    <th >Orange</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th> 
+        </tr>
+        
+  <tr>
+    <th >Carnberry</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th> 
+        </tr>      
+        
+   <tr>
+    <th >Pineapple</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th> 
+        </tr>     
+        
+    <tr>
+    <th >Mango</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th> 
+        </tr>    
+        
+    <tr>
+    <th >Tropikal</th>
+    <th>1.1 &euro;</th>
+      <th>1.5 &euro;</th>
+        <th>1.8 &euro;</th> 
+        </tr>
+
+</table>
+
+<hr>
+<h2>COFFEE TABLE</h2>
+
+<table style="width:100%">
+
+<tr>
+    <th colspan="2">Coffee<th>
+    </tr>
+    
+ <tr> 
+    <th>Espresso</th>
+    <th>1.70 &euro;<th>
+ </tr>
+    
+ <tr> 
+    <th>Americano</th>
+    <th>1.70 &euro;<th>
+ </tr>   
+  
+<tr> 
+    <th>Cappuccino</th>
+    <th>1.70 &euro;<th>
+ </tr>  
+
+
+<tr> 
+    <th>Macchiato</th>
+    <th>1.70 &euro;<th>
+ </tr>
+ 
+ <tr> 
+    <th>Latte</th>
+    <th>1.70 &euro;<th>
+ </tr>
+</table>
+
+<hr>
+
+<h2>SNACKS TABLE</h2>
+
+<table style="width:100%">
+
+<tr>
+    <th >Snacks</th>
+    <th>S</th>
+      <th>M</th>
+        <th>L</th> 
+        </tr>
+
+
+<tr>
+    <th >Sweet and salty Pop Corn</th>
+    <th>1.8 &euro;</th>
+      <th>2.5 &euro;</th>
+        <th>3.2 &euro;</th> 
+        </tr>
+        
+   <tr>
+    <th >Caramel Popcorn</th>
+    <th>1.8 &euro;</th>
+      <th>2.5 &euro;</th>
+        <th>3.2 &euro;</th> 
+        </tr>     
+
+<tr>
+    <th >Nachos</th>
+    <th>1.8 &euro;</th>
+      <th>2.5 &euro;</th>
+        <th>3.2 &euro;</th> 
+        </tr>
+
+<tr>
+    <th >M&M</th>
+    <th>1.8 &euro;</th>
+      <th>2.5 &euro;</th>
+        <th>3.2 &euro;</th> 
+        </tr>
+
+
+</body>
+</html>
