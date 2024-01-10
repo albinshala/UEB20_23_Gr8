@@ -9,10 +9,89 @@
     <link rel="icon" href="img/favicon.jpg.ico" type="image/x-icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+    <style>
+ .contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:100%;
+    margin-top: 10px;
+ }
+ .contact-info.contact-left,
+ .contact-info .contact-right{
+    width:48%;
+    margin-top:10px;
+ }
+ #address-info{
+    margin-top:20px;
+ }  
+    </style>
+
 </head>
 <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="img/logo.png" class="logo"></a>
+                <ul>
+                    <li>
+                        <a href="#about">Movies</a></li>
+                    <li> <a href="#coming">Coming Soon</a></li>
+                    <li><a href="FoodDrinks.html">Food&Drinks</a></li>
+                    <li><a href="BuyTickets.html">Buy Tickets</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+
+                <!--image slider start-->
+                <div class="slider">
+                    <div class="slides">
+
+                <!--radio butoons start-->
+                <input type="radio" name="radio-btn"id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                
+                <!--slide image start-->
+                <div class="slide first">
+                    <img src="./img/the tunnel.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/jujutsu.png" alt="" >
+                </div>
+
+                <div class="slide"><img src="./img/scherzo.png" alt=""></div>
+                <div class="slide"><img src="./img/silent-voice.png" alt=""></div>
+                <div class="slide"><img src="./img/black cover.png" alt=""></div>
+               <!--automatic navigation start-->
+               <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <!--manual navigation start
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+               
+                </div>-->
+                     
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+    </div>
 
     <div id="about">
+        
         <div class="container">
             <div class="row">
     <div class="about-col-1">
@@ -61,6 +140,223 @@ in return for her assistance, and how much would he have left to sacrifice when 
     </div>
     </div>
     </div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./img/jujutsu.png" alt="">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title">Jujutsu Kaisen</h1>
+                <p>High school student Yuuta Okkotsu is plagued by violent misfortunes due to bullying, but he holds a powerful curse
+                    that allows him to seek brutal revenge. The source of the curse is Rika Orimoto, a shadow from his tragic past that
+                    looms as a lethal threat to anyone who does him wrong. Satoru Gojou, a sorcerer at Tokyo Jujutsu High, recognizes
+                    Yuuta's unique potential and tries to help him turn his curse into a force for good. However, Yuuta struggles to find his
+                    place among his talented classmates, including Toge Inumaki, Maki Zenin, and Panda. While Yuuta tries to use
+                    Rika's power to aid his friends, Suguru Getou, a curse user, seeks to exploit Rika's strength and eliminate all non-
+                    jujutsu users from the world. Yuuta must fight against Getou's genocidal plot with the help of his comrades.
+
+                </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="openTab('description2')">Description</p>
+                <p class="tab-links" onclick="openTab('showtime2')">Showtime</p>
+                <p class="tab-links"onclick="openTab('tickets2')">Tickets</p>
+                </div>
+                <div class="tab-contents active-tab " id="description2">
+                <ul>
+                    <li><span>Genre</span><br>Action</li>
+                    <li><span>Duration</span><br>1h44min</li>
+                    <li><span>Age</span><br>13+</li>
+
+                    <li><span>Trailer</span><br>
+                    <a href="videos/JUJUTSU KAISEN 0 _ Official Trailer.mp4">Watch</a></li>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="showtime2">
+                <ul>
+                    <li><span>13:00</span><br>Monday-22-January</li>
+                    <li><span>16:15</span><br>Monday-22-January</li>
+                    <li><span>19:30</span><br>Monday-22-January</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="tickets2">
+                <ul>
+                    <li><span>Kids</span><br>2.50&euro;</li>
+                    <li><span>Adults</span><br>4.00&euro;</li>
+
+                </ul>
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./img/scherzo.png" alt="">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title">Sword Art Online the Movie-Progressive Scherzo of Deep Night</h1>
+                <p>Sword Art Online: Progressive - Kuraki Yuuyami no Scherzo; Sword Art Online the Movie -Progressive- Scherzo of
+                    Deep Night</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="openTab('description3')">Description</p>
+                <p class="tab-links" onclick="openTab('showtime3')">Showtime</p>
+                <p class="tab-links"onclick="openTab('tickets3')">Tickets</p>
+                </div>
+                <div class="tab-contents active-tab " id="description3">
+                <ul>
+                    <li><span>Genre</span><br>Adventure</li>
+                    <li><span>Duration</span><br>1h40min</li>
+                    <li><span>Age</span><br>13+</li>
+
+                    <li><span>Trailer</span><br>
+                    <a href="videos/Sword Art Online the Movie_ Progressive Scherzo of Deep Night - Official Trailer.mp4">Watch</a></li>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="showtime3">
+                <ul>
+                    <li><span>13:00</span><br>Tuesday-23-January</li>
+                    <li><span>16:15</span><br>Tuesday-23-January</li>
+                    <li><span>19:30</span><br>Tuesday-23-January</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="tickets3">
+                <ul>
+                    <li><span>Kids</span><br>2.50&euro;</li>
+                    <li><span>Adults</span><br>4.00&euro;</li>
+
+                </ul>
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./img/silent-voice.png" alt="">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title">Silent Voice</h1>
+                <p>As a young student in elementary school, Shouya Ishida found joy in partaking in the cruelest forms of entertainment,
+                    earning himself a reputation as a mischievous troublemaker. However, when Shouko Nishimiya, a deaf student,
+                    entered their class, she was singled out as the object of their bullying, despite her mother's intervention. As a result,
+                    Shouko was eventually forced to leave the school, leaving Shouya to bear the consequences of his actions. Unaided
+                    by the teachers, he was abandoned by his peers throughout his elementary and middle school years.
+                    Now in his third year of high school,<u> Shouya</u>  still bears the scars of his past transgressions. But driven by a desire for
+                    redemption, he sets out to make amends with Shouko while battling his inner demons. This inspiring story, Koe no
+                    Katachi, follows Shouya's path of redemption as he faces his past and strives to mend his strained relationship with
+                    Shouko.</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="openTab('description4')">Description</p>
+                <p class="tab-links" onclick="openTab('showtime4')">Showtime</p>
+                <p class="tab-links"onclick="openTab('tickets4')">Tickets</p>
+                </div>
+                <div class="tab-contents active-tab " id="description4">
+                <ul>
+                    <li><span>Genre</span><br>Drama</li>
+                    <li><span>Duration</span><br>2h10min</li>
+                    <li><span>Age</span><br>13+</li>
+
+                    <li><span>Trailer</span><br>
+                    <a href="videos/A Silent Voice - Official Trailer.mp4">Watch</a>
+                </ul>
+            </div>
+            <div class="tab-contents" id="showtime4">
+                <ul>
+                    <li><span>13:00</span><br>Wednesday-24-January</li>
+                    <li><span>16:15</span><br>Wednesday-24-January</li>
+                    <li><span>19:30</span><br>Wednesday-24-January</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="tickets4">
+                <ul>
+                    <li><span>Kids</span><br>2.50&euro;</li>
+                    <li><span>Adults</span><br>4.00&euro;</li>
+
+                </ul>
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./img/black cover.png" alt="">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title">Black Clover: Sword of the Wizard King</h1>
+                <p>                        Shounen Jump's spellbinding battle fantasy manga series, &quot;Black Clover&quot;, has garnered the coveted top-rated anime
+                    show spot in 87 countries and regions. Brace yourself for the movie rendition debut that promises to narrate a young
+                    boy's expedition through obstacles and victories on the grand screen. Kindly note that the particulars of the
+                    relationship are subject to alteration until further notice.</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="openTab('description5')">Description</p>
+                <p class="tab-links" onclick="openTab('showtime5')">Showtime</p>
+                <p class="tab-links"onclick="openTab('tickets5')">Tickets</p>
+                </div>
+                <div class="tab-contents active-tab " id="description5">
+                <ul>
+                    <li><span>Genre</span><br>Action</li>
+                    <li><span>Duration</span><br>1h53min</li>
+                    <li><span>Age</span><br>13+</li>
+
+                    <li><span>Trailer</span><br>
+                    <a href="videos/Black Clover_ Sword of the Wizard King _ Official Trailer _ Netflix.mp4">Watch</a>
+                </ul>
+            </div>
+            <div class="tab-contents" id="showtime5">
+                <ul>
+                    <li><span>13:00</span><br>Thursday-25-January</li>
+                    <li><span>16:15</span><br>Thursday-25-January</li>
+                    <li><span>19:30</span><br>Thursday-25-January</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="tickets5">
+                <ul>
+                    <li><span>Kids</span><br>2.50&euro;</li>
+                    <li><span>Adults</span><br>4.00&euro;</li>
+
+                </ul>
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
     
 
     <div id="coming">
@@ -74,7 +370,7 @@ in return for her assistance, and how much would he have left to sacrifice when 
                 </div>
             <div>
             <h2>Great Pretender Razbliuto</h2>
-            <p>It's been three years since WIT Studio captivated the world with the dizzying tricks and
+            <p>It&#39;s been three years since WIT Studio captivated the world with the dizzying tricks and
                 ingenious scenarios that emerged from the &quot;GREAT PRETENDER&quot; series. Now, this
                 all-new action-adventure film follows Dorothy, the self-proclaimed genius con artist who
                 recruited the infamous Laurent Thierry to the life of crime. This time around, she has
@@ -91,78 +387,9 @@ in return for her assistance, and how much would he have left to sacrifice when 
 </div>
 </div>
 </div>
+<div></div>
 
 
-
-
-<div id="today-list">
-    <div class="container1">
-        <h1 class="sub-title">Today</h1>
-        <div class="'today-list">
-
-
-
-            <div class="today">
-                <img src="./img/black cover.png">
-                <div class="layer">
-                    <h3>The Black Cover</h3>
-                    <p>Set in the world where everyone is given the baility to use<b> magic</b>,the story follows Asta,a young boy  born without any magic power who is given a rare grimoire that grants him anti-magic abilities.With his fellow mages from the Black Bulls ,Asta plans to become th next Wizard King.</p>
-                </div>
-            </div>
-            <div class="today">
-                <img src="./img/the tunnel.png">
-                <div class="layer">
-                    <h3>The Tunnel to Summer</h3>
-                    <p>Kaoru's misplaced <u> guilt over his sister death drives most of his actions </u>.The Tunnel to Summer,the exit of Goodbyes   takes its time to build a bleak picture of Kaoru's sad life.</p>
-                </div>
-            </div>
-            <div class="today">
-                <img src="./img/silent-voice.png">
-                <div class="layer">
-                    <h3>A Silent Voice</h3>
-                    <p>It follows the story of a former bully socila outcast,who decides to reconnect and befriend the deaf girl he had bullied years prior. </p>
-                </div>
-            </div>
-            </div>
-
-
-            <a href="#" class="btn">See more</a>
-            </div>
-            </div>
-        </div>
-
-        */qetu osht kontakti*/
-        <div class="contact-right">
-            <h2>Adresa</h2>
-            <p id="address-info"></p>
-        </div>
-    </div>
-</div>
-    </div</div>
-</div>
-</div</div>
-
-       <script>
-        var addressInfo={
-            street:"Dardania-Prishtinë",
-          number: "Rr.Ekrem Çabej ",
-           
-        };
-        function updateAddressInfo(){ try{
-            var addressElement = document.getElementById("address-info");
-            if(!addressElement)
-            {
-                throw new Error("Elementi me id 'address-info' nuk u gjet!");
-            }
-            addressElement.innerText = addressInfo.street + " , " +addresInfo.number;
-        }
-        catch  (error) {
-            console.error("Gabim gjatë përditsimit të informacionit  të adresës:",error.message);
-        }}
-
-        updateAddressInfo();
-
-       </script>
 
 
 </body>
