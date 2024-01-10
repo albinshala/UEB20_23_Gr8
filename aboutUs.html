@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="aboutUs.css">
     <script src="https://kit.fontawesome.com/e0269e10f9.js" crossorigin="anonymous"></script>
     <link rel="icon" href="img/favicon.jpg.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
 </head>
 
@@ -36,6 +38,18 @@
                 </div>
             </div>
         </div>
-        
+
+        <script>
+            $(document).ready(function(){
+                var currentText=$(".about-us-content p:first").text();
+                console.log("Current text of the first paragraph: ", currentText);
+
+                $(".about-us-content p:first").text("The only CineAnime in Kosovo.");
+                $(".about-us-content").append("<p>We love Anime that's why we are CineAnime.</p>");
+
+            });
+                      
+        </script>
+
     </body>
 </html>
