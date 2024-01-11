@@ -97,7 +97,7 @@ form input[type="submit"]:nth-child(2){
     margin-left: 4%;
 }
 
-#otalPrice{
+#totalPrice{
     margin-top: 10px;
     font-weight: bold;
 }
