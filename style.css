@@ -223,12 +223,12 @@ nav ul li a :hover ::after{
     font-weight: 600;
 }
 
-tab-title{
+.tab-title{
     display: flex;
     margin: 20px;
 }
 
-tab-titles{
+.tab-titles{
     display: flex;
     justify-content: start;
     gap: 10px;
@@ -348,7 +348,7 @@ tab-titles{
     object-fit: cover;
     border-radius: 10px;
     display: block;
-    transition: transform 0.5s; /*  Corrected spelling */
+    transition: transform 0.5s;
     margin: auto;
 }
 
@@ -363,7 +363,7 @@ tab-titles{
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: column;
+    justify-content: center;
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
@@ -389,7 +389,7 @@ tab-titles{
     height: 60px;
     border-radius: 50%;
     text-align: center;
-    font-size: 18px; /* Corrected spelling */
+    font-size: 18px; 
     transition: height 0.5s;
 
 }
@@ -529,6 +529,7 @@ nav .fa-solid{
 
 
 }
+
 
 
 
