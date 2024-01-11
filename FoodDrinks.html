@@ -33,7 +33,7 @@
 
             </div>
             </div>
-            
+
 
 
 <div class="menu" style="margin: 10px;">
@@ -83,6 +83,90 @@
        
     <br><hr><br>
     
+    <!--
+        JQuery efekti slide
+    -->
+         
+     <script>
+        $(document).ready(function){
+            $("#drinks").click(function(){
+                $("#drinksTable").slideToggle("slow");
+            });
+        });
+     </script>
+
+     <div id="drinks"><h2>Click to see <b>"Drinks Table</b></h2></div>
+     <div id="drinksTable"><h2>Drinks Table</h2>
+        <table>
+            <tr>
+                <th>Drinks</th>
+                <th>S</th>
+                <th>M</th>
+                <th>L</th>
+            </tr>
+
+       <tr>
+             <th>Dea Mineral Water 0.5 l</th>
+             <td colspan="3">0.50 &euro</td>
+       </tr>
+
+       <tr>
+        <th>Coke</th>
+        <td>1.10 &euro;</td>
+        <td>1.50 &euro;</td>
+        <td>1.80 &euro;</td>
+       </tr>
+
+       <tr>
+        <th> Diet Coke</th>
+            <td>1.10 &euro;</td>
+            <td>1.50 &euro;</td>
+            <td>1.80 &euro;</td>
+        
+       </tr>
+
+       <tr>
+        <th>Sprite</th>
+        <td>1.10 &euro;</td>
+        <td>1.50 &euro;</td>
+        <td>1.80 &euro;</td>
+    
+       </tr>
+
+       <tr>
+        <th>Ice Tea</th>
+        <td>1.10 &euro;</td>
+            <td>1.50 &euro;</td>
+            <td>1.80 &euro;</td>
+        
+       </tr>
+
+       <tr>
+        <th>Lemonad</th>
+        <td>1.10 &euro;</td>
+        <td>1.50 &euro;</td>
+        <td>1.80 &euro;</td>
+       </tr>
+
+       <tr>
+        <th>Fanta</th>
+        <td>1.10 &euro;</td>
+        <td>1.50 &euro;</td>
+        <td>1.80 &euro;</td>
+       </tr>
+
+       <tr>
+        <th>Red Bull</th>
+        <td>2.20 &euro;</td>
+        <td>2.50 &euro;</td>
+        <td>2.80 &euro;</td>
+       </tr>
+
+        </table>
+    
+    </div>
+
+    <!---->
 
 
 </body>
