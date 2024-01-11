@@ -31,8 +31,7 @@
 
             </nav>
 
-            </div>
-            </div>
+            <hr><br>
 
 
 
@@ -165,90 +164,93 @@
         </table>
     
     </div>
+    <hr>
+    <br><br>
 
-    <!--efekti Hide and show-->
+    <!-- EFEKTI Hide and Show -->
 
-    <script>
-        $(document).ready(function(){
-        $("#Juicebutton").click(function(){
-          $("#juices").toggle();
+   
+<script>
+    $(document).ready(function(){
+    $("#Juicebutton").click(function(){
+      $("#juices").toggle();
+      
+    
+    });
+  });
+    </script>
+    <!-- EFEKTI ANIMATE -->
+  <script>
+  $(document).ready(function(){
+    $("#Juicebutton").click(function(){
+      $("#juices").animate({left: '450px'});
+    });
+  });
+  </script> 
+  
+  <button id="Juicebutton"><i>Click</i> the button to see <b>Juices Table</b></button>
+  <div id="juices">
+  <h2>JUICES TABLE</h2>
+  
+  <table>
+  <tr>
+      <th >Juices</th>
+      <th>S</th>
+        <th>M</th>
+          <th>L</th> 
+          </tr>
+  
+  <tr>
+      <th >Apple</th>
+      <td>1.10 &euro;</td>
+        <td>1.50 &euro;</td>
+          <td>1.80 &euro;</td> 
+          </tr>
           
-        
-        });
-      });
-        </script>
-
-        <!-- efekti animate-->
-
-        <script>
-            $(document).ready(function(){
-              $("#Juicebutton").click(function(){
-                $("#juices").animate({left: '450px'});
-              });
-            });
-            </script> 
-
-            <button id="#Juicebutton"><i>Click</i> the button to see <b>Juices Table</b></button>
-            <div id="juices">
-                <h2>JUICES TABLE</h2>
-
-                <table>
-
-                    <tr>
-                        <th>Juices</th>
-                        <th>S</th>
-                        <th>M</th>
-                        <th>L</th>
-                    </tr>
-
-                    <tr>
-                        <th>Apple</th>
-                        <td>1.10 &euro;</td>
-                        <td>1.50 &euro;</td>
-                        <td>1.80 &euro;</td> 
-                    </tr>
-
-                    <tr>
-                        <th>Orange</th>
-                        <td>1.10 &euro;</td>
-                        <td>1.50 &euro;</td>
-                        <td>1.80 &euro;</td> 
-                    </tr>
-
-                    <tr>
-                        <th>Carnberry</th>
-                        <td>1.10 &euro;</td>
-                        <td>1.50 &euro;</td>
-                        <td>1.80 &euro;</td> 
-                    </tr>
-
-                    <tr>
-                        <th>Pineapple</th>
-                        <td>1.10 &euro;</td>
-                        <td>1.50 &euro;</td>
-                        <td>1.80 &euro;</td> 
-                    </tr>
-
-                    <tr>
-                        <th>Mango</th>
-                        <td>1.10 &euro;</td>
-                        <td>1.50 &euro;</td>
-                        <td>1.80 &euro;</td> 
-                    </tr>
-
-                    <tr>
-                        <th>Tropikal</th>
-                        <td>1.10 &euro;</td>
-                        <td>1.50 &euro;</td>
-                        <td>1.80 &euro;</td> 
-                    </tr>
-                </table>
-
-
-            </div>
-
-            <hr>
-            <br><br>
+    <tr>
+      <th >Orange</th>
+      <td>1.10 &euro;</td>
+        <td>1.50 &euro;</td>
+          <td>1.80 &euro;</td> 
+          </tr>
+          
+    <tr>
+      <th >Carnberry</th>
+      <td>1.10 &euro;</th>
+        <td>1.50 &euro;</td>
+          <td>1.80 &euro;</td> 
+          </tr>      
+          
+     <tr>
+      <th >Pineapple</th>
+      <td>1.10 &euro;</td>
+        <td>1.50 &euro;</td>
+          <td>1.80 &euro;</td> 
+          </tr>     
+          
+      <tr>
+      <th >Mango</th>
+      <td>1.10 &euro;</td>
+        <td>1.50 &euro;</td>
+          <td>1.80 &euro;</td> 
+          </tr>    
+          
+      <tr>
+      <th >Tropikal</th>
+      <td>1.10 &euro;</td>
+        <td>1.50 &euro;</td>
+          <td>1.80 &euro;</td> 
+          </tr>
+  
+  </table>
+  </div>
+  </div>
+  
+  
+  
+  
+  <hr>
+  <br><br>
 
             <!-- EFEKTI FADE -->
 
@@ -261,10 +263,7 @@
                   });
                 });
                 </script>
-
-                <!-- EFEKTI CALLBACK-->
-
-                 <script>
+ <script>
                 $(document).ready(function(){
                     $("#coffeebtn").click(function(){
                         alert("By clicking the button you can show or hide the table");
@@ -274,9 +273,9 @@
 
                   <div id="coffeebtn">Click to see the coffee table</div><br><br>
 
-                  
+                  <div id="div1">
                     <table id="TabC">
-                        <div id="div1">
+                        
                         <h2>COFFEE TABLE</h2>
                         <tr>
                             <th colspan="2">Coffee</th>
@@ -286,11 +285,12 @@
                             <th>Espresso</th>
                             <td>1.00 &euro;</td>
                         </tr>
+                        <tr>
                         </div>
 
                         <div id="div2">
 
-                        <tr>
+                        
                             <th>Macchiato</th>
                             <td>1.00 &euro;</td>
                         </tr>
@@ -299,10 +299,12 @@
                             <th>Americano</th>
                             <td>1.00 &euro;</td>
                         </tr>
+
+                        <tr>
                         </div>
 
                         <div id="div3">
-                            <tr>
+                            
                             <th>Cappuccino</th>
                             <td>1.50 &euro;</td>
                             </tr>
@@ -313,9 +315,15 @@
                             </tr>
 
 
-                        </div>
+                        
                         </table>
+                    </div>
+                    <hr>
+                    <br>
 
+                <!-- EFEKTI CALLBACK-->
+
+                
                         <!--TABELA SNACKS-->
 
                         <h2 style="text-align: center;">SNACKS TABLE</h2>
