@@ -87,13 +87,13 @@
         JQuery efekti slide
     -->
          
-     <script>
-        $(document).ready(function){
-            $("#drinks").click(function(){
-                $("#drinksTable").slideToggle("slow");
-            });
+    <script> 
+        $(document).ready(function(){
+          $("#drinks").click(function(){
+            $("#drinksTable").slideToggle("slow");
+          });
         });
-     </script>
+        </script>
 
      <div id="drinks"><h2>Click to see <b>"Drinks Table</b></h2></div>
      <div id="drinksTable"><h2>Drinks Table</h2>
@@ -252,11 +252,112 @@
 
             <!-- EFEKTI FADE -->
 
-            
-            
+            <script>
+                $(document).ready(function(){
+                  $("#coffeebtn").click(function(){
+                    $("#div1").fadeToggle();
+                    $("#div2").fadeToggle("slow");
+                    $("#div3").fadeToggle(3000);
+                  });
+                });
+                </script>
+
+                <!-- EFEKTI CALLBACK-->
+
+                 <script>
+                $(document).ready(function(){
+                    $("#coffeebtn").click(function(){
+                        alert("By clicking the button you can show or hide the table");
+                    });
+                  });
+                  </script>
+
+                  <div id="coffeebtn">Click to see the coffee table</div><br><br>
+
+                  
+                    <table id="TabC">
+                        <div id="div1">
+                        <h2>COFFEE TABLE</h2>
+                        <tr>
+                            <th colspan="2">Coffee</th>
+                        </tr>
+
+                        <tr>
+                            <th>Espresso</th>
+                            <td>1.00 &euro;</td>
+                        </tr>
+                        </div>
+
+                        <div id="div2">
+
+                        <tr>
+                            <th>Macchiato</th>
+                            <td>1.00 &euro;</td>
+                        </tr>
+
+                        <tr>
+                            <th>Americano</th>
+                            <td>1.00 &euro;</td>
+                        </tr>
+                        </div>
+
+                        <div id="div3">
+                            <tr>
+                            <th>Cappuccino</th>
+                            <td>1.50 &euro;</td>
+                            </tr>
+
+                            <tr>
+                                <th>Latte</th>
+                                <td>1.20 &euro;</td>
+                            </tr>
 
 
+                        </div>
+                        </table>
 
+                        <!--TABELA SNACKS-->
+
+                        <h2 style="text-align: center;">SNACKS TABLE</h2>
+
+                        <table id="snacks">
+
+                            <tr>
+                                <th>Snacks</th>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>L</th>
+                            </tr>
+
+                            <tr>
+                                <th>Sweet and salty Popcorn</th>
+                                <td>1.80 &euro;</td>
+                                <td>2.50 &euro;</td>
+                                <td>3.20 &euro;</td>
+                            </tr>
+
+                            <tr>
+                                <th>Caramel Popcorn</th>
+                                <td>1.80 &euro;</td>
+                                <td>2.50 &euro;</td>
+                                <td>3.20 &euro;</td>
+                            </tr>
+
+                            <tr>
+                                <th>Nachos</th>
+                                <td>1.80 &euro;</td>
+                                <td>2.50 &euro;</td>
+                                <td>3.20 &euro;</td>
+                            </tr>
+
+                            <tr>
+                                <th>M&M</th>
+                                <td>1.80 &euro;</td>
+                                <td>2.50 &euro;</td>
+                                <td>3.20 &euro;</td>
+                            </tr>
+                        
+                        </table>
 
 </body>
 </html>
