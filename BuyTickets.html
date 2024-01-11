@@ -77,7 +77,7 @@
             <input type="tel" id="phone" name="phone" placeholder="04*-***-***" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required maxlength="9" size="9"><br><br>
 
 
-            <label for="Bank">Select your Bank</label><br>
+            <label for="Bank">Select your Bank:</label><br>
             <input type="text" list="Bank" name="Bank"  required><br>
             <datalist id="Bank">
                 <option value="Banka Ekonomike"></option>
@@ -86,6 +86,16 @@
                 <option value="NLB Bank"></option>
                 <option value="Procredit Bank"></option>
             </datalist>
+
+            <label for="bankcard">Bank Card Number:</label><br>
+            <input type="tel" id="bankcard" name="bankcard" placeholder="123-456-89123" pattern="[0-9]{3}-[0-9]{4}-[0-9]{5}" required maxlength="12" size="12"><br> 
+            
+            <label for="pin">PIN:</label><br>
+            <input type="password" id="pin" name="pin" placeholder="Enter pin" maxlength="4" size="4"><br><br>
+
+            <label for="Barcode">Ticket code:</label><br>
+            <input type="text" name="Barcode" id="Barcode" value="D3df9S66" readonly><br>
+
             
 
 
