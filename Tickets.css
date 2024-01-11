@@ -16,4 +16,11 @@ html{
     background-color: #080808;
     background-size: cover;
     background-position: center;
+
+}
+.container{
+    padding: 10px 10%;
+}
+.logo{
+    width:140px;
 }
