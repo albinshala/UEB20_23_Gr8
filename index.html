@@ -430,9 +430,53 @@ in return for her assistance, and how much would he have left to sacrifice when 
                 </div>
             </div>
         </div>
-
+        </div>
+        
+</div>
 </div>
 
+<script>
+    var addressInfo={
+        street:"Dardania-Prishtinë",
+        number:"Rr.Ekrem Çabej",
+    }
+
+    function updateAddressInfo(){
+        try{
+            var addressElement=document.getElementById("address-info");
+            if(!addressElement){
+                throw new Error("Elementi me id 'address-info' nuk u gjet!");
+            }
+            addressElement.innerText=addressInfo.street+ ", "+addressInfo.number;
+        } catch(error){
+            console.error("Gabim gjatë përditësimit të informacionit të adresës:", error.message);
+
+        }
+    }
+
+    updateAddressInfo();
+</script>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function openTab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+    }
+</script>
+
+<script>
+    $(document).ready(function(){
+        
+    })
+</script>
 
 
 
