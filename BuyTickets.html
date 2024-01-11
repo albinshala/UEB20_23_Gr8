@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Tickets</title>
+    
+    <link rel="stylesheet" href="Tickets.css">
+    <link rel="" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav    >
+                <a href="index.html"> <img src="img/logo.png" class="logo"></a>
+                <ul  id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li><a  href="FoodDrinks.html">Food&Drinks</a></li>
+                    <li><a  href="BuyTickets.html">Buy Tickets</a></li>
+                    <li><a  href="aboutus.html">About Us</a></li>
+                </ul>
+               
+
+            </nav>
+
+
+
+
+
+
+            <form action="" method="post">
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter your name" autofocus required><br>
+
+            <label for="lname">Surname:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+            <label for="pwd">Password:</label><br>
+            <input type="password" name="pwd" id="pwd" placeholder="Enter password" required><br>
+
+            <label for="lct">Cinema location</label><br>
+            <input type="text" id="lct" name="lct" value="Pristine" disabled><br>
+
+            <label for="movie">Select a movie:</label><br>
+            <select name="movie" id="movie">
+            <option value="movie1">The Tunnel to Summer, the Exit of Goodbyes</option>
+            <option value="movie2">Jujutsu Kaisen</option>
+            <option value="movie3">Sword Art Online the Movie-Orogressive Scherzo of Deep Night </option>
+            <option value="movie4">A Silent Voice</option>
+            <option value="movie5">Black Clover: Sword off the Wizard King</option>
+            </select><br>
+
+            <label for="dms">Select watching dimensions:</label><br>
+            <select name="dms" id="dms" required>
+                <option value="2D">2D-Two dimensional</option>
+                <option value="3D">3D-Three dimensional</option>
+            </select><br>
+
+            <label for="time">Select showtime:</label><br>
+            <select name="time" id="time">
+                <option value="13:00">13:00</option>
+                <option value="16:15">16:15</option>
+                <option value="19:30">19:30</option>
+            </select><br>
+
+            <label for="phone">Enter a phone number</label><br><br>
+            <input type="tel" id="phone" name="phone" placeholder="04*-***-***" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required maxlength="9" size="9"><br><br>
+
+
+            <label for="Bank">Select your Bank:</label><br>
+            <input type="text" list="Bank" name="Bank"  required><br>
+            <datalist id="Bank">
+                <option value="Banka Ekonomike"></option>
+                <option value="TEB"></option>
+                <option value="Raiffaisen Bank"></option>
+                <option value="NLB Bank"></option>
+                <option value="Procredit Bank"></option>
+            </datalist>
+
+            <label for="bankcard">Bank Card Number:</label><br>
+            <input type="tel" id="bankcard" name="bankcard" placeholder="123-456-89123" pattern="[0-9]{3}-[0-9]{4}-[0-9]{5}" required maxlength="12" size="12"><br> 
+            
+            <label for="pin">PIN:</label><br>
+            <input type="password" id="pin" name="pin" placeholder="Enter pin" maxlength="4" size="4"><br><br>
+
+            <label for="Barcode">Ticket code:</label><br>
+            <input type="text" name="Barcode" id="Barcode" value="D3df9S66" readonly><br>
+
+            <label for="nrt">Select number of tickets:</label><br>
+            <input type="number" name="nrt" id="nrt" min="1" max="9" oninput="calculateTotalPrice()" required><br>
+             
+
+
+            <script>
+                function calculateTotalPrice() {
+                    var numberofTickets = document.getElementById("nrt").value;
+                    var pricePerTicket=4;
+
+                    var totalPrice = numberofTickets * pricePerTicket;
+
+                    document.getElementById("totalPrice").innerHTML = "Total Price:" + totalPrice + "&euro;";
+                }
+            </script>
+
+            <div id="totalPrice" value="totalPrice">Total Price: </div>
+
+            <label for="terms">Accept Terms and Agreements:</label><br>
+             <input type="checkbox" name="terms" id="terms" required><br>
+
+            <label for="dataConfirmation">I confirm that the provided data is mine:</label><br>
+            <input type="checkbox" name="dataConfirmation" id="dataConfirmation" required> <br>
+
+            <input type="submit" value="Download">
+            <input type="submit" value="Print ticket">
+
+
+            </form>
+            <br>
+            <hr>
+
+
+            <div class="container pt-5">
+                <h1>Send a message if you want to reserve a private room for any party, holiday, birthday or a special night </h1>
+
+                <p>We will response your message in less than 24h for your reservation in the email you sent us. </p>
+                <p>Please, in the message text-box write what kind of special night you have, the number of persons and much more information  </p>
+            </div>
+
+
+            <div class="container mt-3">
+
+            <form action="/BuyTickets.html">
+            <div class="mb-3 mt-3">
+                <label for="email">Email from:</label>
+                <input type="email" name="email" id="email" placeholder="example@something.com" required><br>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+
+               <label for="em">To:</label>
+               <input type="email" name="em" id="em" value="cineaime@gmail.com" disabled >
+
+               <label for="comment">Message:</label>
+               <textarea class="form-control" name="text" id="comment" rows="5"></textarea>
+               </div>
+               <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            </div>
+        </div>
+        </div>
+        </body>
+        </html>
+
+            
+
+
+
+
+
+
+
+
+
+</body>
+</html>
