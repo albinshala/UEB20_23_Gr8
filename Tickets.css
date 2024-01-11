@@ -53,3 +53,7 @@ nav ul li  a:hover::after{
 nav .fa-solid{
     display: none;
 }
+body{
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
