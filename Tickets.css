@@ -50,3 +50,6 @@ nav ul li::after{
 nav ul li  a:hover::after{
     width:100%;
 }
+nav .fa-solid{
+    display: none;
+}
