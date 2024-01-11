@@ -102,8 +102,17 @@
 
 
             <script>
-                
+                function calculateTotalPrice() {
+                    var numberofTickets = document.getElementById("nrt").value;
+                    var pricePerTicket=4;
+
+                    var totalPrice = numberofTickets * pricePerTicket;
+
+                    document.getElementById("totalPrice").innerHTML = "Total Price:" + totalPrice + "&euro;";
+                }
             </script>
+
+            
 
 
 
